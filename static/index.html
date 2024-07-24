@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/dash.css" rel="stylesheet">
+    <link href="../static/bootstrap5-toggle.min.css" rel="stylesheet">
+    <link href="../static/styles.css" rel="stylesheet">
+
+    <script src="../static/jquery-3.7.1.min.js"></script>
+    <script src="../static/bootstrap.min.js"></script>
+    <script src="../static/bootstrap5-toggle.jquery.js"></script>
+    <script src="../static/app.js"></script>
+
+    <title>StoryStelling AI</title>
+	
+	    <style>
+        /* Ensure the image container fills the card */
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        /* Center the image and resize it to double its original size */
+        .card-img-top {
+            width: 384px;
+            height: 384px;
+            object-fit: contain;
+            display: block;
+        }
+    </style>
+	
+</head>
+<body>
+      
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row">            
+                <div class="col-md-4">
+		    <div class="card">
+			 <div class="col-md-6">
+				<div class="card">
+					<img id="outputImage" src="book.png" class="card-img-top" alt="Image">
+				</div>
+			</div>
+                    </div>
+				</div>
+				
+				<div class="col-md-8">
+                    <div class="card">
+                        <div class="chat-container">
+                            <div class="chat-header">AI Story Telling</div>
+                            <div class="chat-messages" id="messages">
+
+                            </div>
+                            <div class="chat-input">
+                                <input type="text" id="messageText" autocomplete="off" placeholder="Type a message..." class="form-control" />
+                                <button onclick="sendMessage()" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>     
+        </div>
+    </section>
+</body>
+</html>

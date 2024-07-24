@@ -1,0 +1,20 @@
+
+
+1. 
+
+If using Piper Text to Speech engine downgrade onnxruntime.
+
+```
+Use 1.17.1 of onnxruntime
+```
+
+2.
+
+For W7900 AMD card.
+
+```
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.1`
+
+export NUMEXPR_MAX_THREADS=16
+export TORCH_BLAS_PREFER_HIPBLASLT=0
+```
