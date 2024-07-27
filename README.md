@@ -51,3 +51,4 @@ python app.py
 If you find this project helpful and would like to support its development, you can buy me a coffee on Ko-Fi:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q210TA62)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dhimiterqendri)
